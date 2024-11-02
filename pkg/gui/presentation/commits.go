@@ -75,7 +75,7 @@ func GetCommitListDisplayStrings(
 	filteredCommits := commits[startIdx:endIdx]
 
 	bisectBounds := getbisectBounds(commits, bisectInfo)
-
+//test
 	// function expects to be passed the index of the commit in terms of the `commits` slice
 	var getGraphLine func(int) string
 	if showGraph {
